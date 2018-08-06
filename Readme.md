@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Sergey Shramko](https://up.htmlacademy.ru/htmlcss/22/user/852139).
-* Наставник: `Неизвестно`.
+* Наставник: [Филипп Шамсиев](https://up.htmlacademy.ru/htmlcss/22/user/70260).
 
 ---
 

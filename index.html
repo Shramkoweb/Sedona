@@ -102,10 +102,49 @@
           <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
           <button class="search-button">Поиск гостиницы в седоне</button>
           <!-- Здесь будет форма подбора гостиницы -->
+          <div class="appointment-form">
+            <form action="#" method="POST">
+              <div class="arrival-field">
+                <label for="arrival-date">Дата заезда:</label>
+                <div class="input-wrapper">
+                  <input type="text" name="arrival-date" id="arrival-date">
+                  <button class="input-pic"></button>
+                </div>
+              </div>
+              <div class="departure-field">
+                <label for="departure-date">Дата выезда:</label>
+                <div class="input-wrapper">
+                  <input type="text" name="departure-date" id="departure-date">
+                  <button class="input-pic"></button>
+                </div>
+              </div>
+              <div class="adult">
+                <label for="adult"></label>
+                <div class="input-wrapper">
+                  <label for="adult">Взрослые:</label>
+                  <button class="input-pic"></button>
+                  <input type="text" name="adult" id="adult" value="2">
+                  <button class="input-pic"></button>
+                </div>
+              </div>
+              <div class="kids">
+                <label for="kids"></label>
+                <div class="input-wrapper">
+                  <label for="kids">Дети:</label>
+                  <button class="input-pic"></button>
+                  <input type="text" name="kids" id="kids" value="0">
+                  <button class="input-pic"></button>
+                </div>
+              </div>
+              <div class="button">
+                <input type="submit" value="Найти">
+              </div>
+            </form>
+          </div>
         </section>
         <section class="map">
           <h2 class="visually-hidden">Как до нас добраться</h2>
-          <!-- Здесь будет карта -->
+          <div class="map-wrapper"></div>
         </section>
       </article>
     </main>

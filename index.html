@@ -104,36 +104,34 @@
           <!-- Здесь будет форма подбора гостиницы -->
           <div class="appointment-form">
             <form action="#" method="POST">
-              <div class="arrival-field">
+              <div class="date-field">
                 <label for="arrival-date">Дата заезда:</label>
                 <div class="input-wrapper">
-                  <input type="text" name="arrival-date" id="arrival-date">
-                  <button class="input-pic"></button>
+                  <input type="text" name="arrival-date" id="arrival-date" value="24 Апреля 2017">
+                  <button class="input-pic" type="button"></button>
                 </div>
               </div>
-              <div class="departure-field">
+              <div class="date-field">
                 <label for="departure-date">Дата выезда:</label>
                 <div class="input-wrapper">
-                  <input type="text" name="departure-date" id="departure-date">
-                  <button class="input-pic"></button>
+                  <input type="text" name="departure-date" id="departure-date" value="4 Июля 2017">
+                  <button class="input-pic" type="button"></button>
                 </div>
               </div>
-              <div class="adult">
-                <label for="adult"></label>
+              <div class="people">
                 <div class="input-wrapper">
                   <label for="adult">Взрослые:</label>
-                  <button class="input-pic"></button>
+                  <button class="input-pic" type="button"></button>
                   <input type="text" name="adult" id="adult" value="2">
-                  <button class="input-pic"></button>
+                  <button class="input-pic" type="button"></button>
                 </div>
               </div>
-              <div class="kids">
-                <label for="kids"></label>
+              <div class="people">
                 <div class="input-wrapper">
                   <label for="kids">Дети:</label>
-                  <button class="input-pic"></button>
+                  <button class="input-pic" type="button"></button>
                   <input type="text" name="kids" id="kids" value="0">
-                  <button class="input-pic"></button>
+                  <button class="input-pic" type="button"></button>
                 </div>
               </div>
               <div class="button">
@@ -144,7 +142,9 @@
         </section>
         <section class="map">
           <h2 class="visually-hidden">Как до нас добраться</h2>
-          <div class="map-wrapper"></div>
+          <div class="map-wrapper">
+            <img src="#" width="1200" height="594" alt="Sedona, AZ  86336">
+          </div>
         </section>
       </article>
     </main>

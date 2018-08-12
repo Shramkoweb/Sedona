@@ -33,6 +33,52 @@
       <h1 class="visually-hidden">Гостиницы Седоны</h1>
       <section class="filters">
         <!-- Здесь будет форма-->
+        <form class="filters-form" action="#" method="POST">
+          <fieldset class="infrastructure">
+            <legend>Инфраструктура:</legend>
+            <div>
+              <input type="checkbox" id="pool" name="infrastructure" value="pool" checked />
+              <label for="pool">Бассейн</label>
+            </div>
+            <div>
+              <input type="checkbox" id="parking" name="infrastructure" value="parking" />
+              <label for="parking">Парковка</label>
+            </div>
+            <div>
+              <input type="checkbox" id="wi-fi" name="infrastructure" value="wi-fi" />
+              <label for="wi-fi">Wi-Fi</label>
+            </div>
+          </fieldset>
+          <fieldset class="housing">
+            <legend>Тип жилья:</legend>
+            <div>
+              <input type="checkbox" id="hotel" name="housing" value="hotel" checked />
+              <label for="hotel">Гостиница</label>
+            </div>
+            <div>
+              <input type="checkbox" id="motel" name="housing" value="motel" checked />
+              <label for="motel">Мотель</label>
+            </div>
+            <div>
+              <input type="checkbox" id="apartments" name="housing" value="apartments" checked />
+              <label for="apartments">Апартаменты</label>
+            </div>
+          </fieldset>
+          <fieldset class="CPD">
+            <legend>Стоимость в сутки (Р):</legend>
+            <div class="cpd-from">
+              <label>
+                от<input type="text" name="from" value="0">
+              </label>
+              <label>
+                до<input type="text" name="to" value="3000">
+              </label>
+            </div>
+            <div class="cpd-range">
+              <input type="range" name="cpd-cost" >
+            </div>
+          </fieldset>
+        </form>
       </section>
       <section class="grade">
         <div class="quantity">

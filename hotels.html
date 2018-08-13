@@ -34,56 +34,54 @@
       <section class="filters">
         <!-- Здесь будет форма-->
         <form class="filters-form" action="#" method="POST">
-          <fieldset class="infrastructure">
+          <fieldset class="filters-item">
             <legend>Инфраструктура:</legend>
             <div>
-              <input type="checkbox" id="pool" name="infrastructure" value="pool" checked />
+              <input type="checkbox" id="pool" name="pool" value="pool" checked/>
               <label for="pool">Бассейн</label>
             </div>
             <div>
-              <input type="checkbox" id="parking" name="infrastructure" value="parking" />
+              <input type="checkbox" id="parking" name="parking" />
               <label for="parking">Парковка</label>
             </div>
             <div>
-              <input type="checkbox" id="wi-fi" name="infrastructure" value="wi-fi" />
+              <input type="checkbox" id="wi-fi" name="wi-fi" />
               <label for="wi-fi">Wi-Fi</label>
             </div>
           </fieldset>
-          <fieldset class="housing">
+          <fieldset class="filters-item">
             <legend>Тип жилья:</legend>
             <div>
-              <input type="checkbox" id="hotel" name="housing" value="hotel" checked />
+              <input type="checkbox" id="hotel" name="hotel" checked />
               <label for="hotel">Гостиница</label>
             </div>
             <div>
-              <input type="checkbox" id="motel" name="housing" value="motel" checked />
+              <input type="checkbox" id="motel" name="motel" checked />
               <label for="motel">Мотель</label>
             </div>
             <div>
-              <input type="checkbox" id="apartments" name="housing" value="apartments" checked />
+              <input type="checkbox" id="apartments" name="apartments" checked />
               <label for="apartments">Апартаменты</label>
             </div>
           </fieldset>
-          <fieldset class="CPD">
+          <fieldset class="cpd">
             <legend>Стоимость в сутки (Р):</legend>
             <div class="cpd-from">
               <label>
-                от<input type="text" name="from" value="0">
+                от
+                <input type="text" name="from" value="0">
               </label>
               <label>
-                до<input type="text" name="to" value="3000">
+                до
+                <input type="text" name="to" value="3000">
               </label>
             </div>
-            <div class="cpd-range">
-              <input type="range" name="cpd-cost" >
-            </div>
+            <input type="range" name="cpd-cost">
           </fieldset>
         </form>
       </section>
       <section class="grade">
-        <div class="quantity">
-          <p class="description">Найдено: 3</p>
-        </div>
+        <p class="quantity">Найдено: 3</p>
         <ul class="sort-list">
           <li class="sort-item">
             <a class="sort-link" href="#">По цене</a>
@@ -95,9 +93,9 @@
             <a class="sort-item" href="#">По рейтингу</a>
           </li>
         </ul>
-        <div class="grade-button">
-          <span class="up"></span>
-          <span class="down"></span>
+        <div class="sort-arrow">
+          <a class="arrow arrow-up" href="#"></a>
+          <a class="arrow arrow-down" href="#"></a>
         </div>
       </section>
       <section class="hotels">
@@ -108,15 +106,16 @@
               <img src="#" alt="Гостиница Amara Resort & Spa" height="90" width="135">
             </div>
             <div class="hotels-info">
-              <h3 class="title">Amara Resort & Spa</h3>
+              <h3 class="title"><a href="#">Amara Resort & Spa</a></h3>
               <div class="description">
                 <div class="type">
                   <span class="type-button">Гостиница</span>
                   <a class="type-link" href="#">Подробнее</a>
                 </div>
-                <div class="price"></div>
-                <span class="price-value">От 4000 Р.</span>
-                <a class="price-button" href="">Забронировать</a>
+                <div class="price">
+                  <span class="price-value">От 4000 Р.</span>
+                  <a class="price-button" href="">Забронировать</a>
+                </div>
               </div>
             </div>
             <div class="rate">
@@ -136,15 +135,16 @@
               <img src="#" alt="Гостиница Desert Quail Inn" height="90" width="135">
             </div>
             <div class="hotels-info">
-              <h3 class="title">Desert Quail Inn</h3>
+              <h3 class="title"><a href="#">Desert Quail Inn</a></h3>
               <div class="description">
                 <div class="type">
                   <span class="type-button">Мотель</span>
                   <a class="type-link" href="#">Подробнее</a>
                 </div>
-                <div class="price"></div>
-                <span class="price-value">От 3000 Р.</span>
-                <a class="price-button" href="">Забронировать</a>
+                <div class="price">
+                  <span class="price-value">От 3000 Р.</span>
+                  <a class="price-button" href="">Забронировать</a>
+                </div>
               </div>
             </div>
             <div class="rate">
@@ -163,7 +163,7 @@
               <img src="#" alt="Гостиница Villas at Poco Diablo" height="90" width="135">
             </div>
             <div class="hotels-info">
-              <h3 class="title">Villas at Poco Diablo</h3>
+              <h3 class="title"><a href="#">Villas at Poco Diablo</a></h3>
               <div class="description">
                 <div class="type">
                   <span class="type-button">Апартаменты</span>
@@ -193,13 +193,13 @@
       <div class="footer-social">
         <ul class="social-list">
           <li class="social-item">
-            <a class="social-button" href="">Твиттер</a>
+            <a class="social-button" href="#">Твиттер</a>
           </li>
           <li class="social-item">
-            <a class="social-button" href="">Фейсбук</a>
+            <a class="social-button" href="#">Фейсбук</a>
           </li>
           <li class="social-item">
-            <a class="search-button" href="">Ютуб</a>
+            <a class="search-button" href="#">Ютуб</a>
           </li>
         </ul>
       </div>

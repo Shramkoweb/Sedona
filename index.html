@@ -98,44 +98,44 @@
     <section class="map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
       <div class="map-wrapper">
-        <img src="img/map.jpg" alt="Sedona, AZ  86336" width="1200" height="594" >
+        <img src="img/map.jpg" alt="Город Седона, штат Аризона, Соединённые Штаты Америки" width="1200" height="594" >
       </div>
     </section>
     <section class="modal modal-form">
       <form action="#" method="POST">
         <div class="form-row">
-          <label class="form-label" for="arrival-date">Дата заезда:</label>
+          <label aria-label="Поле выбора даты заезда" class="form-label" for="arrival-date">Дата заезда:</label>
           <div class="input-wrapper">
-            <input class="form-input" type="text" name="arrival-date" id="arrival-date" value="24 Апреля 2017">
+            <input class="form-input" type="text" name="arrival-date" id="arrival-date" placeholder="24 Апреля 2017">
             <button class="form-btn" type="button">Календарь</button>
           </div>
         </div>
         <div class="form-row">
-          <label class="form-label" for="departure-date">Дата выезда:</label>
+          <label aria-label="Поле выбора даты выезда" class="form-label" for="departure-date">Дата выезда:</label>
           <div class="input-wrapper">
-            <input class="form-input" type="text" name="departure-date" id="departure-date" value="4 Июля 2017">
+            <input class="form-input" type="text" name="departure-date" id="departure-date" placeholder="4 Июля 2017">
             <button class="form-btn" type="button">Календарь</button>
           </div>
         </div>
         <div class="form-row">
           <div class="form-count">
-            <label class="form-label" for="adult">Взрослые:</label>
+            <label aria-label="Поле ввода количества взрослых" class="form-label" for="adult">Взрослые:</label>
             <div class="count-wrapper">
-              <button class="count-btn" type="button">Минус</button>
-              <input class="count-input" type="text" name="adult" id="adult" value="2">
-              <button class="count-btn" type="button">Плюс</button>
+              <button aria-label="Уменьшить количество взрослых" class="count-btn" type="button">Минус</button>
+              <input class="count-input" type="text" name="adult" id="adult" placeholder="2">
+              <button aria-label="Увеличить количество взрослых" class="count-btn" type="button">Плюс</button>
             </div>
           </div>
           <div class="form-count">
-            <label class="form-label" for="kids">Дети:</label>
+            <label aria-label="Поле ввода количества детей" class="form-label" for="kids">Дети:</label>
             <div class="count-wrapper">
-              <button class="count-btn" type="button">Минус</button>
-              <input class="count-input" type="text" name="kids" id="kids" value="0">
-              <button class="count-btn" type="button">Плюс</button>
+              <button aria-label="Уменьшить количество детей" class="count-btn" type="button">Минус</button>
+              <input class="count-input" type="text" name="kids" id="kids" placeholder="0">
+              <button aria-label="Увеличить количество детей" class="count-btn" type="button">Плюс</button>
             </div>
           </div>
         </div>
-        <input class="btn btn-search" type="submit" value="Найти">
+        <input aria-label="Найти отели по заданым характеристикам" class="btn btn-search" type="submit" value="Найти">
       </form>
     </section>
   </main>

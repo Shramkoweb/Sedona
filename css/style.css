@@ -14,6 +14,7 @@ body {
   margin: 0 auto;
   width: 1200px;
   background-color: #ffffff;
+  box-shadow: 0px 5px 15px 0px rgba(0, 1, 1, 0.2);
 }
 
 a {
@@ -302,4 +303,8 @@ a.link-current {
 .rate {
   color: #666666;
   background-color: #f2f2f2;
+}
+
+.social-list {
+  list-style: none;
 }

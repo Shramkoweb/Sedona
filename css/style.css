@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+.page-wrapper {
+  background-color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-list a {
+  color: #000000;
+}
+
+.navigation-list a:hover {
+  color: #81b3d2;
+}
+
+.navigation-list a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+div.welcome {
+  background-color: #6687ae;
+  background-image: url(../img/background-photo.jpg);
+  text-align: center;
+}
+
+.welcome .welcome-title {
+  color: #000000;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.card .card-title {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.card .card-description {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+div.card-blue {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+div.card-grey {
+  background-color: #eeeeee;
+}
+
+div.card-grey .card-title {
+  color: #000000;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.features-title {
+  color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.features-description {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.appointment-title {
+  color: #000000;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.btn {
+  font: inherit;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.btn-appointment {
+  background-color: #766357;
+}
+
+.btn-appointment:hover {
+  background-color: #604e43;
+}
+
+.btn-appointment:active {
+  background-color: #503e33;
+}
+
+.modal-form {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-search {
+  background-color: #81b3d2;
+}
+
+.btn-search:hover {
+  background-color: #669ec0;
+}
+
+.btn-search:active {
+  background-color: #81b3d2;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.input-wrapper input {
+  font: inherit;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.input-wrapper input:hover {
+  background-color: #ebebeb;
+}
+
+.input-wrapper input:focus {
+  background-color: #ffffff;
+}
+
+.main-footer {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.main-footer b {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-item a {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+}
+
+

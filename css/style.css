@@ -154,6 +154,15 @@ a.current {
   border: none;
 }
 
+.form-row input:hover {
+  background-color: #ebebeb;
+}
+
+.form-row input:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
 .modal-form {
   color: #000000;
   font-size: 14px;
@@ -194,5 +203,103 @@ a:hover path {
 }
 
 a:active path {
-  fill: #5496bd;
+  fill: #bdbbbc;
+}
+
+.filters {
+  background-image: url(../img/filter\ background.jpg);
+  color: #ffffff;
+}
+
+.filter-item legend {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.filter-item input {
+  font: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+.filter-item ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff;
+  opacity: 1;
+  /* Firefox */
+}
+
+.filter-item :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffffff;
+}
+
+.filter-item ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ffffff;
+}
+
+.cpd {
+  border: 2px solid #ffffff;
+}
+
+.btn-display {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.quantity {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.sort-text,
+.sort-item a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.sort-list {
+  list-style: none;
+}
+
+.sort-item a {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: underline dashed #81b3d2;
+}
+
+.sort-item a:hover {
+  color: #81b3d2;
+}
+
+.sort-item a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+a.link-current {
+  color: #81b3d2;
+  text-decoration: none;
+}
+
+.card-title a {
+  color: #000000;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.card-title a:hover {
+  color: #81b3d2;
+}
+
+.card-title a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.rate {
+  color: #666666;
+  background-color: #f2f2f2;
 }

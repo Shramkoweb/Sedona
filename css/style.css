@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 21px;
   font-weight: 400;
   color: #333333;
   text-transform: uppercase;
@@ -11,9 +11,9 @@ body {
 }
 
 .page-wrapper {
-  background-color: #ffffff;
-  width: 1200px;
   margin: 0 auto;
+  width: 1200px;
+  background-color: #ffffff;
 }
 
 a {
@@ -25,7 +25,6 @@ a {
   line-height: 26px;
   font-weight: 700;
   color: #000000;
-  background-color: #ffffff;
 }
 
 .navigation-list {
@@ -44,161 +43,156 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
-div.welcome {
-  background-color: #6687ae;
-  background-image: url(../img/background-photo.jpg);
-  text-align: center;
+a.current {
+  color: #766357;
 }
 
-.welcome .welcome-title {
-  color: #000000;
+.welcome {
+  text-align: center;
+  background-image: url(../img/background-photo.jpg);
+}
+
+.welcome-title {
   font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.welcome-description {
   line-height: 26px;
 }
 
-.card .card-title {
+.card {
+  text-align: center;
+}
+
+.card-title,
+.features-title {
   font-size: 21px;
   line-height: 21px;
+  color: #000000;
 }
 
-.card .card-description {
-  font-size: 14px;
-  line-height: 21px;
-}
-
-div.card-blue {
+.card-blue,
+.card-blue .card-title {
   color: #ffffff;
   background-color: #81b3d2;
 }
 
-div.card-grey {
-  background-color: #eeeeee;
-}
-
-div.card-grey .card-title {
-  color: #000000;
-}
-
 .features-list {
   list-style: none;
-}
-
-.feature-item {
   text-align: center;
 }
 
-.features-title {
-  color: #000000;
-  font-size: 21px;
-  line-height: 21px;
-}
-
-.features-description {
-  font-size: 14px;
-  line-height: 21px;
-}
-
 .appointment-title {
+  text-align: center;
   color: #000000;
   font-size: 30px;
   line-height: 36px;
 }
 
-.btn {
-  font: inherit;
-  font-weight: 700;
-  color: #ffffff;
-  border: none;
-  vertical-align: middle;
-  text-transform: uppercase;
+.appointment-description {
+  line-height: 24px;
   text-align: center;
-  font-size: 21px;
-  line-height: 26px;
 }
 
-.btn-appointment {
+.btn {
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn:active {
+  color: rgba(255, 255, 255, 0.3)
+}
+
+.btn-appointment,
+.btn-search {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.btn-appointment,
+.btn-brown {
   background-color: #766357;
 }
 
-.btn-appointment:hover {
+.btn-appointment:hover,
+.btn-brown:hover {
   background-color: #604e43;
 }
 
-.btn-appointment:active {
+.btn-appointment:active,
+.btn-brown:active {
   background-color: #503e33;
 }
 
-.modal-form {
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: 700;
-  color: #000000;
-  background-color: #ffffff;
-}
-
-.btn-search {
+.btn-search,
+.social-btn,
+.btn-blue {
   background-color: #81b3d2;
 }
 
-.btn-search:hover {
+.btn-search:hover,
+.social-btn:hover,
+.btn-blue:hover {
   background-color: #669ec0;
 }
 
-.btn-search:active {
-  background-color: #81b3d2;
-  color: rgba(255, 255, 255, 0.3);
+.btn-search:active,
+.social-btn:active,
+.btn-blue:active {
+  background-color: #5496bd;
 }
 
-.input-wrapper input {
+.form-row input {
   font: inherit;
   background-color: #f2f2f2;
   border: none;
 }
 
-.input-wrapper input:hover {
-  background-color: #ebebeb;
+.modal-form {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
 }
 
-.input-wrapper input:focus {
-  background-color: #ffffff;
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000000;
+  opacity: 1;
+  /* Firefox */
 }
 
-.main-footer {
-  background-color: rgba(255, 255, 255, 0.9);
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000000;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000000;
 }
 
 .main-footer b {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
+  font-weight: 700;
 }
 
-.social-list {
-  list-style: none;
-}
-
-.social-item a {
-  color: #ffffff;
-  background-color: #81b3d2;
-}
-
-.footer-copyright {
-  font-size: 14px;
-  line-height: 26px;
+.footer-copyright span {
   color: #000000;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #000000;
-  opacity: 1; /* Firefox */
+a:hover path {
+  fill: #81b3d2;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #000000;
+a:active path {
+  fill: #5496bd;
 }
-
-::-ms-input-placeholder { /* Microsoft Edge */
-  color: #000000;
-}
-
-

@@ -469,3 +469,48 @@ a.link-current {
   display: flex;
   justify-content: space-between;
 }
+
+.map img {
+  vertical-align: bottom;
+}
+
+.filter-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sort {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding: 25px 72px;
+}
+
+.sort-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort-item {
+  margin: 5px 10px;
+}
+
+.quantity {
+  margin-right: 48px;
+}
+
+.sort-text {
+  margin-right: 40px;
+}
+
+.hotel-catalog {
+  display: flex;
+  flex-direction: column;
+  padding-left: 73px;
+}
+
+.hotel-row {
+  display: flex;
+}

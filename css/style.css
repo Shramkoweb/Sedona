@@ -320,6 +320,10 @@ a.link-current {
 
 /* ----- Сеточные стили ----- */
 
+.page-wrapper {
+  position: relative;
+}
+
 .main-header {
   position: relative;
 }
@@ -384,7 +388,7 @@ a.link-current {
   vertical-align: bottom;
 }
 
-.card-title {
+.card .card-title {
   width: 160px;
   margin: 0 auto;
 }
@@ -477,10 +481,10 @@ a.link-current {
 }
 
 .modal-form form {
-  width: 459px;
   position: absolute;
   display: flex;
   flex-direction: column;
+  width: 459px;
   margin: -594px 0 0 316px;
   padding: 55px;
   background-color: #ffffff;
@@ -494,8 +498,8 @@ a.link-current {
 
 .form-row {
   display: flex;
-  margin-bottom: 31px;
   justify-content: space-between;
+  margin-bottom: 31px;
 }
 
 .form-row label {
@@ -510,42 +514,6 @@ a.link-current {
 
 .form-count {
   display: flex;
-}
-
-.main-footer {
-  box-sizing: border-box;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 22px;
-  padding-left: 15px;
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 100%;
-}
-
-.page-wrapper {
-  position: relative;
-}
-
-.main-footer b {
-  margin-top: 24px;
-}
-
-.social-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.social-item {
-  text-align: center;
-  margin-right: 5px;
-  width: 46px;
-  background-color: #81b3d2;
-  height: 48px;
 }
 
 .input-wrapper,
@@ -564,4 +532,111 @@ a.link-current {
 
 .count-wrapper {
   display: flex;
+}
+
+.main-footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.social-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social-item {
+  width: 46px;
+  height: 48px;
+  margin-right: 5px;
+  background-color: #81b3d2;
+}
+
+/* Отели */
+
+.filters {
+  padding: 0 72px;
+  padding-top: 26px;
+  padding-bottom: 33px;
+}
+
+.filter-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-item {
+  border: none;
+}
+
+.sort {
+  display: flex;
+  align-items: baseline;
+  padding-top: 25px;
+  padding-right: 72px;
+  padding-bottom: 18px;
+  padding-left: 72px;
+}
+
+.filter-item {
+  margin: 0;
+  padding: 0;
+}
+
+.sort-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.quantity {
+  margin-right: 48px;
+}
+
+.sort-text {
+  margin-right: 40px;
+}
+
+.sort-item {
+  margin-right: 32px;
+}
+
+.hotel-catalog {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-row {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 31px;
+  padding-right: 72px;
+  padding-bottom: 22px;
+  padding-left: 72px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.footer-hotels {
+  position: relative;
+}
+
+.hotel-row .card-title {
+  margin: 0;
+}
+
+.hotel-img {
+  margin-right: 30px;
+}
+
+.hotel-rate {
+  margin-left: auto;
 }

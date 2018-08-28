@@ -239,6 +239,10 @@ a.current {
   fill: #bdbbbc;
 }
 
+.social-btn:active path {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
 .filters {
   color: #ffffff;
   background-image: url(../img/filter-background.jpg);
@@ -656,9 +660,18 @@ a.link-current {
   align-items: center;
   justify-content: center;
 }
+
 .footer-copyright span {
   margin-right: 8px;
 }
+
 .page-wrapper {
   position: relative;
+}
+
+.form-btn,
+.count-btn {
+  margin: 0;
+  border: none;
+  background-color: #f2f2f2;
 }

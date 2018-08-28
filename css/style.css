@@ -371,6 +371,7 @@ a.link-current {
 
 .main-header {
   position: relative;
+  background-color: #ffffff;
 }
 
 .main-header .main-logo {
@@ -471,6 +472,10 @@ a.link-current {
   display: block;
 }
 
+.features {
+  background-color: #ffffff;
+}
+
 .features-list {
   display: flex;
   margin: 0;
@@ -544,6 +549,7 @@ a.link-current {
   position: relative;
   padding-top: 51px;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .appointment .appointment-description {
@@ -716,6 +722,7 @@ a.link-current {
   padding-right: 72px;
   padding-bottom: 30px;
   padding-left: 72px;
+  background-color: #ffffff;
 }
 
 .sort-list {
@@ -742,6 +749,7 @@ a.link-current {
 .hotel-catalog {
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
 }
 
 .hotel-row {

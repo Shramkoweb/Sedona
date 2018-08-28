@@ -14,7 +14,9 @@
 <body>
   <div class="page-wrapper">
     <header class="main-header">
-      <img class="main-logo" src="img/logo-sedona.svg" alt="Логотип сайта Седона" width="140" height="72">
+      <a class="main-logo" href="#">
+        <img src="img/logo-sedona.svg" alt="Логотип сайта Седона" width="140" height="72">
+      </a>
       <nav class="main-navigation">
         <ul class="navigation-list">
           <li>
@@ -94,7 +96,7 @@
           <div class="card card-grey">
             <h2 class="card-title">Мало туристов</h2>
             <span class="card-number">№5</span>
-            <p class="card-description">Большинство едет в гранд каньон и толпится там</p>
+            <p class="card-description">Большинство едет в гранд каньон и&nbspтолпится там</p>
           </div>
         </section>
       </article>
@@ -103,61 +105,61 @@
         <p class="appointment-description">Укажите предполагаемые даты поездки,
           <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <button class="btn btn-appointment" type="button">Поиск гостиницы в седоне</button>
+        <div class="modal modal-form">
+          <form action="https://echo.htmlacademy.ru" method="POST">
+            <div class="form-row">
+              <label aria-label="Поле выбора даты заезда" class="form-label" for="arrival-date">Дата заезда:</label>
+              <div class="input-wrapper">
+                <input class="form-input" type="text" name="arrival-date" id="arrival-date" placeholder="24 Апреля 2017">
+                <button class="form-btn" type="button">
+                  <span class="visually-hidden">Календарь</span>
+                </button>
+              </div>
+            </div>
+            <div class="form-row">
+              <label aria-label="Поле выбора даты выезда" class="form-label" for="departure-date">Дата выезда:</label>
+              <div class="input-wrapper">
+                <input class="form-input" type="text" name="departure-date" id="departure-date" placeholder="4 Июля 2017">
+                <button class="form-btn" type="button">
+                  <span class="visually-hidden">Календарь</span>
+                </button>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-count">
+                <label aria-label="Поле ввода количества взрослых" class="form-label" for="adult">Взрослые:</label>
+                <div class="count-wrapper">
+                  <button aria-label="Уменьшить количество взрослых" class="count-btn" type="button">
+                    <span class="visually-hidden">Минус</span>
+                  </button>
+                  <input class="count-input" type="text" name="adult" id="adult" placeholder="2">
+                  <button aria-label="Увеличить количество взрослых" class="count-btn" type="button">
+                    <span class="visually-hidden">Плюс</span>
+                  </button>
+                </div>
+              </div>
+              <div class="form-count">
+                <label aria-label="Поле ввода количества детей" class="form-label" for="kids">Дети:</label>
+                <div class="count-wrapper">
+                  <button aria-label="Уменьшить количество детей" class="count-btn" type="button">
+                    <span class="visually-hidden">Минус</span>
+                  </button>
+                  <input class="count-input" type="text" name="kids" id="kids" placeholder="0">
+                  <button aria-label="Увеличить количество детей" class="count-btn" type="button">
+                    <span class="visually-hidden">Плюс</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <input aria-label="Найти отели по заданым характеристикам" class="btn btn-search" type="submit" value="Найти">
+          </form>
+        </div>
       </section>
       <section class="map">
         <h2 class="visually-hidden">Как до нас добраться</h2>
         <div class="map-wrapper">
           <img src="img/map.jpg" alt="Город Седона, штат Аризона, Соединённые Штаты Америки" width="1200" height="594">
         </div>
-      </section>
-      <section class="modal modal-form">
-        <form action="https://echo.htmlacademy.ru" method="POST">
-          <div class="form-row">
-            <label aria-label="Поле выбора даты заезда" class="form-label" for="arrival-date">Дата заезда:</label>
-            <div class="input-wrapper">
-              <input class="form-input" type="text" name="arrival-date" id="arrival-date" placeholder="24 Апреля 2017">
-              <button class="form-btn" type="button">
-                <span class="visually-hidden">Календарь</span>
-              </button>
-            </div>
-          </div>
-          <div class="form-row">
-            <label aria-label="Поле выбора даты выезда" class="form-label" for="departure-date">Дата выезда:</label>
-            <div class="input-wrapper">
-              <input class="form-input" type="text" name="departure-date" id="departure-date" placeholder="4 Июля 2017">
-              <button class="form-btn" type="button">
-                <span class="visually-hidden">Календарь</span>
-              </button>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-count">
-              <label aria-label="Поле ввода количества взрослых" class="form-label" for="adult">Взрослые:</label>
-              <div class="count-wrapper">
-                <button aria-label="Уменьшить количество взрослых" class="count-btn" type="button">
-                  <span class="visually-hidden">Минус</span>
-                </button>
-                <input class="count-input" type="text" name="adult" id="adult" placeholder="2">
-                <button aria-label="Увеличить количество взрослых" class="count-btn" type="button">
-                  <span class="visually-hidden">Плюс</span>
-                </button>
-              </div>
-            </div>
-            <div class="form-count">
-              <label aria-label="Поле ввода количества детей" class="form-label" for="kids">Дети:</label>
-              <div class="count-wrapper">
-                <button aria-label="Уменьшить количество детей" class="count-btn" type="button">
-                  <span class="visually-hidden">Минус</span>
-                </button>
-                <input class="count-input" type="text" name="kids" id="kids" placeholder="0">
-                <button aria-label="Увеличить количество детей" class="count-btn" type="button">
-                  <span class="visually-hidden">Плюс</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <input aria-label="Найти отели по заданым характеристикам" class="btn btn-search" type="submit" value="Найти">
-        </form>
       </section>
     </main>
     <footer class="main-footer">

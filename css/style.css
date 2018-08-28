@@ -675,3 +675,131 @@ a.link-current {
   border: none;
   background-color: #f2f2f2;
 }
+
+/* Отели */
+
+.footer-hotels {
+  position: relative;
+}
+
+.filters {
+  padding: 27px 72px;
+  padding-bottom: 33px;
+}
+
+.filter-form {
+  display: flex;
+}
+
+.filter-item {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-form .filter-item:first-child {
+  margin-right: 118px;
+}
+
+.cost-wrapper {
+  margin-left: auto;
+}
+
+.cost-wrapper .filter-item:first-child {
+  margin-right: 0px;
+}
+
+.sort {
+  display: flex;
+  align-items: baseline;
+  padding-top: 25px;
+  padding-right: 72px;
+  padding-bottom: 30px;
+  padding-left: 72px;
+}
+
+.sort-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.quantity {
+  margin-right: 48px;
+  margin-top: 5px;
+}
+
+.sort-text {
+  padding: 0;
+  margin: 0;
+  margin-right: 40px;
+}
+
+.sort-item {
+  margin-right: 32px;
+}
+
+.hotel-catalog {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-row {
+  padding: 30px 72px;
+  padding-bottom: 29px;
+  display: flex;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.hotel-img {
+  margin-right: 30px;
+}
+
+.hotel-img img {
+  display: block;
+}
+
+.hotel-card .card-title,
+.rate {
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-rate {
+  margin-left: auto;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+}
+
+.rate {
+  padding: 3px 10px 3px 16px;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info {
+  display: flex;
+}
+
+.btn-blue {
+  padding: 3px 0;
+  display: block;
+  width: 110px;
+  margin-right: 6px;
+}
+
+.btn-brown {
+  padding: 3px 0;
+  display: block;
+  width: 142px;
+}
+
+.card-box span {
+  margin-top: 2px;
+  margin-bottom: 14px;
+}

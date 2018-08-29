@@ -617,6 +617,12 @@ a.link-current {
   position: relative;
 }
 
+.copyright-btn {
+  display: block;
+  width: 115px;
+  height: 41px;
+}
+
 /* Отели */
 .footer-hotels {
   position: relative;
@@ -819,6 +825,19 @@ a.link-current {
   padding: 16px 0;
   margin-top: 54px;
 }
+
 .form-row:last-of-type {
   margin-bottom: 0px;
+}
+
+.form-btn path {
+  fill: #cacaca;
+}
+
+.form-btn:hover path {
+  fill: #000000;
+}
+
+.form-btn:active path {
+  fill: #81b3d2;
 }

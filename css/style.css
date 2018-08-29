@@ -246,6 +246,7 @@ a.current {
 .filters {
   color: #ffffff;
   background-image: url(../img/filter-background.jpg);
+  background-position: 0 -55px;
 }
 
 .filter-item legend {

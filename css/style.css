@@ -830,14 +830,17 @@ a.link-current {
   margin-bottom: 0px;
 }
 
-.form-btn path {
+.form-btn path,
+.count-btn path {
   fill: #cacaca;
 }
 
-.form-btn:hover path {
+.form-btn:hover path,
+.count-btn:hover path  {
   fill: #000000;
 }
 
-.form-btn:active path {
+.form-btn:active path,
+.count-btn:active path {
   fill: #81b3d2;
 }

@@ -253,6 +253,7 @@ a.current {
 .filter-item legend {
   font-weight: 700;
   font-size: 16px;
+  margin-bottom: 24px;
 }
 
 .filter-item input {
@@ -660,7 +661,7 @@ a.link-current {
 
 .filters {
   padding: 27px 72px;
-  padding-bottom: 33px;
+  padding-bottom: 10px;
 }
 
 .filter-form {
@@ -921,3 +922,58 @@ a.link-current {
 }
 
 /* Форма отели */
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 21px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+}
+
+.container input:checked~.checkmark:after {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 9px;
+  top: -5px;
+  width: 5px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.filter-wrapper {
+  margin-bottom: 25px;
+}
+
+.filter-wrapper:last-of-type {
+  margin-bottom: 0px;
+}

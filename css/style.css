@@ -1127,6 +1127,7 @@ a.link-current {
   height: 70%;
   width: 2px;
   left: 100%;
+  top: 5px;
 }
 
 .stars {

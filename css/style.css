@@ -1056,7 +1056,7 @@ a.link-current {
 
 .field-two label {
   width: 46%;
-  text-align: end;
+  text-align: right;
 }
 
 .field-two input {
@@ -1065,7 +1065,7 @@ a.link-current {
 
 .field-one label {
   width: 52%;
-  text-align: end;
+  text-align: right;
 }
 
 .field-one input {

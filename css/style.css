@@ -309,11 +309,11 @@ a.current {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 317px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .cost-field {
@@ -321,8 +321,8 @@ a.current {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .btn-display {
@@ -1048,10 +1048,10 @@ a.link-current {
   padding: 5px;
   width: 50%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .field-two label {
@@ -1099,7 +1099,7 @@ a.link-current {
   width: 20px;
   height: 20px;
   background: #ffffff;
-  border-radius: 10 px;
+  border-radius: 10px;
   top: -10px;
 }
 
@@ -1117,17 +1117,7 @@ a.link-current {
   width: 4px;
   height: 4px;
   background: #b1b1b1;
-  border-radius: 1 px;
-}
-
-.fier {
-  content: "";
-  position: absolute;
-  left: 49.7%;
-  top: 15%;
-  background: #FFF;
-  height: 70%;
-  width: 2px;
+  border-radius: 2px;
 }
 
 .field-one::after {
@@ -1160,12 +1150,12 @@ a.link-current {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }

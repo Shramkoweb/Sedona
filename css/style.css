@@ -753,8 +753,10 @@ a.link-current {
 }
 
 .hotel-row {
-  padding: 30px 72px;
-  padding-bottom: 29px;
+  padding-left: 72px;
+  padding-top: 29px;
+  padding-right: 66px;
+  padding-bottom: 28px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -778,13 +780,11 @@ a.link-current {
 
 .hotel-rate {
   margin-left: auto;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 5px;
 }
 
 .rate {
   padding: 3px 10px 3px 16px;
+  margin-right: 8px;
 }
 
 .card-box {
@@ -817,7 +817,7 @@ a.link-current {
 }
 
 .card-box span {
-  margin-top: 2px;
+  margin-top: 4px;
   margin-bottom: 14px;
 }
 
@@ -1129,4 +1129,24 @@ a.link-current {
   height: 70%;
   width: 2px;
   left: 100%;
+}
+
+.stars {
+  background-image: url(../img/star.svg);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+}
+
+.hotel-stars {
+  display: flex;
+  margin: 0;
+}
+
+.hotel-rate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
 }

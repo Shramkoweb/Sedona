@@ -171,6 +171,7 @@ a.current {
 
 .form-row input:focus {
   background-color: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 2px #e5e5e5;
   box-shadow: inset 0px 0px 2px #e5e5e5;
   outline: none;
 }
@@ -381,11 +382,15 @@ a.link-current {
   width: 140px;
   top: 0;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
 .navigation-list {
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 15px 72px;
 }
@@ -427,6 +432,8 @@ a.link-current {
 }
 
 .card-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -477,6 +484,8 @@ a.link-current {
 }
 
 .features-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
@@ -527,6 +536,9 @@ a.link-current {
 }
 
 .card-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
 
@@ -564,11 +576,16 @@ a.link-current {
 }
 
 .main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 36px 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: absolute;
   bottom: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.9);
@@ -587,12 +604,18 @@ a.link-current {
 .social-list {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 400px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .social-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 46px;
   height: 48px;
@@ -605,8 +628,14 @@ a.link-current {
 
 .footer-copyright {
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -635,6 +664,8 @@ a.link-current {
 }
 
 .filter-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -657,7 +688,11 @@ a.link-current {
 }
 
 .sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
   align-items: baseline;
   padding-top: 25px;
   padding-right: 72px;
@@ -667,6 +702,8 @@ a.link-current {
 }
 
 .sort-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
@@ -688,7 +725,12 @@ a.link-current {
 }
 
 .hotel-catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   background-color: #ffffff;
 }
@@ -696,6 +738,8 @@ a.link-current {
 .hotel-row {
   padding: 30px 72px;
   padding-bottom: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
@@ -727,11 +771,18 @@ a.link-current {
 }
 
 .card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -755,6 +806,7 @@ a.link-current {
 
 /* Форма основной */
 .modal-form {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 55px;
   position: absolute;
@@ -762,24 +814,40 @@ a.link-current {
   background-color: #ffffff;
   width: 568px;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%)
 }
 
 .modal-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 29px;
 }
 
 .input-wrapper {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 346px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -802,6 +870,8 @@ a.link-current {
 
 .form-count,
 .count-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -813,8 +883,12 @@ a.link-current {
 }
 
 .form-count {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 227px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -837,7 +911,7 @@ a.link-current {
 }
 
 .form-btn:hover path,
-.count-btn:hover path  {
+.count-btn:hover path {
   fill: #000000;
 }
 
@@ -845,3 +919,5 @@ a.link-current {
 .count-btn:active path {
   fill: #81b3d2;
 }
+
+/* Форма отели */

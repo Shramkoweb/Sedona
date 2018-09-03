@@ -792,6 +792,7 @@ a.current {
   box-sizing: border-box;
   width: 346px;
   display: flex;
+  position: relative;
 }
 
 .form-input {
@@ -799,9 +800,12 @@ a.current {
   padding: 6px 0;
   padding-left: 13px;
   text-transform: uppercase;
+  padding-right: 35px;
+  box-sizing: border-box;
+  height: 38px;
 }
 
-.form-btn,
+
 .count-btn {
   margin: 0;
   border: none;
@@ -809,6 +813,17 @@ a.current {
   display: block;
   width: 38px;
   height: 38px;
+  padding: 0;
+}
+
+.form-btn {
+  position: absolute;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0;
+  right: 9px;
+  top: 20%;
+
 }
 
 .form-count,
@@ -817,6 +832,7 @@ a.current {
 }
 
 .count-input {
+  box-sizing: border-box;
   width: 38px;
   height: 38px;
   padding: 0;
@@ -875,7 +891,7 @@ a.current {
 /* Hide the browser's default checkbox */
 .container input {
   position: absolute;
-  opaciy: 0;
+  opacity: 0;
   cursor: pointer;
 }
 
@@ -956,6 +972,7 @@ a.current {
 
 .cost-field {
   padding: 5px;
+  padding-bottom: 4px;
   width: 50%;
   box-sizing: border-box;
   justify-content: space-between;
@@ -968,6 +985,7 @@ a.current {
 
 .field-two input {
   width: 51%;
+  height: 22px;
 }
 
 .field-one label {
@@ -977,6 +995,7 @@ a.current {
 
 .field-one input {
   width: 46%;
+  height: 22px;
 }
 
 .field-one {

@@ -604,6 +604,10 @@ a.current {
   margin-right: 6px;
 }
 
+.social-item:last-child .social-btn {
+  margin-right: 0;
+}
+
 .social-btn svg {
   margin: auto;
 }
@@ -616,7 +620,7 @@ a.current {
 }
 
 .footer-copyright span {
-  margin-right: 8px;
+  margin-right: 6px;
 }
 
 .page-wrapper {
@@ -636,7 +640,7 @@ a.current {
 
 .filters {
   padding: 27px 72px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
 }
 
 .filter-form {
@@ -665,7 +669,7 @@ a.current {
 .sort {
   display: flex;
   align-items: baseline;
-  padding-top: 23px;
+  padding-top: 24px;
   padding-right: 72px;
   padding-bottom: 31px;
   padding-left: 72px;
@@ -702,15 +706,16 @@ a.current {
 
 .hotel-row {
   padding-left: 72px;
-  padding-top: 29px;
-  padding-right: 66px;
-  padding-bottom: 28px;
+  padding-top: 25px;
+  padding-right: 72px;
+  padding-bottom: 30px;
   display: flex;
   border-bottom: 1px solid #e5e5e5;
 }
 
 .hotel-img {
   margin-right: 30px;
+  margin-top: 5px;
 }
 
 .hotel-img img {
@@ -728,8 +733,7 @@ a.current {
 }
 
 .rate {
-  padding: 3px 10px 3px 16px;
-  margin-right: 8px;
+  padding: 3px 12px 3px 16px;
 }
 
 .card-box {
@@ -755,7 +759,7 @@ a.current {
 }
 
 .card-box span {
-  margin-top: 4px;
+  margin-top: 7px;
   margin-bottom: 14px;
 }
 
@@ -871,7 +875,7 @@ a.current {
 /* Hide the browser's default checkbox */
 .container input {
   position: absolute;
-  opacity: 0;
+  opaciy: 0;
   cursor: pointer;
 }
 
@@ -885,10 +889,6 @@ a.current {
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 3px;
-}
-
-.check-box:focus .checkmark {
-  box-shadow: 0 0 0px 2px red;
 }
 
 .container input:checked~.checkmark:after {
@@ -946,11 +946,11 @@ a.current {
   margin-bottom: 10px;
 }
 
-.copyright-btn:hover path {
+.svg-logo:hover path {
   fill: #81b3d2;
 }
 
-.copyright-btn:active path {
+.svg-logo:active path {
   fill: #bdbbbc;
 }
 
@@ -1008,6 +1008,7 @@ a.current {
   background: #ffffff;
   border-radius: 10px;
   top: -10px;
+  cursor: pointer;
 }
 
 .circle-2 {
@@ -1045,9 +1046,14 @@ a.current {
   margin-right: 6px;
 }
 
+.stars:last-child {
+  margin-right: 0;
+}
+
 .hotel-stars {
   display: flex;
   margin: 0;
+  margin-top: 4px;
 }
 
 .hotel-rate {
@@ -1055,4 +1061,9 @@ a.current {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
+}
+
+.copyright-btn svg {
+  padding-top: 1px;
+  padding-left: 3px;
 }

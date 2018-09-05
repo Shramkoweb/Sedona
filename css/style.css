@@ -189,7 +189,7 @@ a.current {
 
 .form-row input:focus {
   background-color: #ffffff;
-  box-shadow: inset 0px 0px 2px #e5e5e5;
+  box-shadow: inset 0px 0px 0px 2px #e5e5e5;
   outline: none;
 }
 
@@ -1093,4 +1093,23 @@ a.current {
 
 .modal-show {
   display: block;
+  animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(-1000px);
+  }
+
+  50% {
+    transform: translateX(1000px);
+  }
+
+  75% {
+    transform: translateX(-500px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }

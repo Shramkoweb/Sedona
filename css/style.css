@@ -773,7 +773,9 @@ a.current {
   width: 568px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%)
+  transform: translateX(-50%);
+  z-index: 1;
+  display: none;
 }
 
 .modal-form form {
@@ -1086,5 +1088,9 @@ a.current {
 }
 
 #map {
-  height: 550px;
+  height: 593px;
+}
+
+.modal-show {
+  display: block;
 }

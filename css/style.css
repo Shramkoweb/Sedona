@@ -1123,7 +1123,7 @@ a.current {
   align-items: flex-end;
 }
 
-#map {
+.map-wrapper {
   height: 593px;
 }
 

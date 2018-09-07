@@ -965,6 +965,11 @@ a.current {
   border-radius: 3px;
 }
 
+.checkmark:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #8fb9ff;
+}
+
 .container input:checked ~ .checkmark:after {
   content: "";
   position: absolute;

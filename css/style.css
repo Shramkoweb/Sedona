@@ -32,23 +32,23 @@ a {
   text-decoration: none;
 }
 
-.sort-item a.sort-link {
+.sort-link {
   color: rgba(0, 0, 0, 0.3);
 
   border-bottom: 1px dotted #81b3d2;
 }
 
-.sort-item a.sort-link:hover {
+.sort-link:not(.link-current):hover {
   color: #81b3d2;
 }
 
-.sort-item a.sort-link:active {
+.sort-link:not(.link-current):active {
   color: #000000;
 
   border-bottom: none;
 }
 
-.sort-item a.sort-link.link-current {
+.link-current {
   color: #81b3d2;
 
   border-bottom: none;
@@ -372,11 +372,15 @@ a.current {
   color: #000000;
 }
 
-.sort-text,
-.sort-item a {
+.sort-text {
   font-size: 12px;
   line-height: 18px;
   color: #000000;
+}
+
+.sort-item a {
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .sort-list {

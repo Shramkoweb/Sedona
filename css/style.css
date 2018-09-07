@@ -80,7 +80,7 @@ a.current {
 
   background-color: #ffffff;
   background-image: url(../img/background-photo.jpg);
-  background-position: 0 -84px;
+  background-position: 0 -83px;
 }
 
 .welcome-title {
@@ -374,7 +374,6 @@ a.current {
   list-style: none;
 }
 
-/* ----- Сеточные стили ----- */
 .main-header {
   position: relative;
 
@@ -397,7 +396,8 @@ a.current {
 .navigation-list {
   display: flex;
   margin: 0;
-  padding: 15px 72px;
+  padding: 17px 72px;
+  padding-top: 13px;
 }
 
 .navigation-list li {
@@ -415,13 +415,13 @@ a.current {
 }
 
 .welcome-top {
-  padding-top: 76px;
+  padding-top: 77px;
   padding-bottom: 73px;
 }
 
 .welcome-bottom {
-  padding-top: 61px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 52px;
 
   background-color: #ffffff;
 }
@@ -442,7 +442,7 @@ a.current {
 }
 
 .card-blue {
-  padding: 48px 60px 58px 60px;
+  padding: 46px 60px 58px 60px;
 }
 
 .card-title,
@@ -496,8 +496,8 @@ a.current {
 
 .features-item {
   width: 400px;
-  padding-top: 57px;
-  padding-bottom: 80px;
+  padding-top: 56px;
+  padding-bottom: 83px;
 }
 
 .home-pic::before {
@@ -540,8 +540,8 @@ a.current {
 }
 
 .features-item .features-title {
-  margin-top: 29px;
-  margin-bottom: 25px;
+  margin-top: 28px;
+  margin-bottom: 24px;
 }
 
 .features-item .features-description {
@@ -554,13 +554,13 @@ a.current {
 }
 
 .card-reverse .card-blue {
-  padding: 47px 45px 58px 45px;
+  padding: 45px 45px 58px 45px;
 }
 
 .card-grey {
   width: 400px;
-  padding-top: 48px;
-  padding-bottom: 58px;
+  padding-top: 46px;
+  padding-bottom: 60px;
 }
 
 .card-grey .card-description {
@@ -571,7 +571,7 @@ a.current {
 .appointment {
   position: relative;
 
-  padding-top: 51px;
+  padding-top: 49px;
 
   text-align: center;
 
@@ -649,7 +649,6 @@ a.current {
   height: 41px;
 }
 
-/* Отели */
 .footer-hotels {
   position: relative;
 }
@@ -783,7 +782,6 @@ a.current {
   margin-bottom: 14px;
 }
 
-/* Форма основной */
 .modal-form {
   position: absolute;
   top: 100%;
@@ -901,7 +899,6 @@ a.current {
   fill: #81b3d2;
 }
 
-/* Форма отели */
 .container {
   position: relative;
 
@@ -969,10 +966,11 @@ a.current {
 }
 
 .arrow {
-  vertical-align: middle;
   display: inline-block;
   width: 0;
   height: 0;
+
+  vertical-align: middle;
 
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;

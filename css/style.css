@@ -13,6 +13,8 @@ body {
 }
 
 .page-wrapper {
+  position: relative;
+
   width: 1200px;
   margin: 0 auto;
 
@@ -139,11 +141,18 @@ a.current {
   color: #ffffff;
   text-transform: uppercase;
 
+  background-color: #81b3d2;
   border: none;
+}
+
+.btn:hover {
+  background-color: #669ec0;
 }
 
 .btn:active {
   color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
 }
 
 .btn-appointment,
@@ -166,24 +175,6 @@ a.current {
 .btn-appointment:active,
 .btn-brown:active {
   background-color: #503e33;
-}
-
-.btn-search,
-.social-btn,
-.btn-blue {
-  background-color: #81b3d2;
-}
-
-.btn-search:hover,
-.social-btn:hover,
-.btn-blue:hover {
-  background-color: #669ec0;
-}
-
-.btn-search:active,
-.social-btn:active,
-.btn-blue:active {
-  background-color: #5496bd;
 }
 
 .form-row input {
@@ -211,44 +202,34 @@ a.current {
 }
 
 ::-webkit-input-placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #000000;
 
   opacity: 1;
-  /* Firefox */
 }
 
 :-ms-input-placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #000000;
 
   opacity: 1;
-  /* Firefox */
 }
 
 ::-ms-input-placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #000000;
 
   opacity: 1;
-  /* Firefox */
 }
 
 ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #000000;
 
   opacity: 1;
-  /* Firefox */
 }
 
 :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
   color: #000000;
 }
 
 ::-ms-input-placeholder {
-  /* Microsoft Edge */
   color: #000000;
 }
 
@@ -292,45 +273,35 @@ a.current {
   border: none;
 }
 
-.filter-item ::-webkit-input-placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
+.filter-item :-webkit-input-placeholder {
   color: #ffffff;
 
   opacity: 1;
-  /* Firefox */
 }
 
 .filter-item :-ms-input-placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #ffffff;
 
   opacity: 1;
-  /* Firefox */
 }
 
 .filter-item ::-ms-input-placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #ffffff;
 
   opacity: 1;
-  /* Firefox */
 }
 
 .filter-item ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #ffffff;
 
   opacity: 1;
-  /* Firefox */
 }
 
 .filter-item :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
   color: #ffffff;
 }
 
 .filter-item ::-ms-input-placeholder {
-  /* Microsoft Edge */
   color: #ffffff;
 }
 
@@ -431,7 +402,7 @@ a.current {
 
 .navigation-list li {
   display: block;
-  width: 240px;
+  width: 241px;
 }
 
 .navigation-list li:nth-child(3) {
@@ -474,8 +445,8 @@ a.current {
   padding: 48px 60px 58px 60px;
 }
 
-.card .card-title,
-.card .card-description,
+.card-title,
+.card-description,
 .features-item .features-title,
 .features-item .features-description,
 .appointment-title,
@@ -529,31 +500,39 @@ a.current {
   padding-bottom: 80px;
 }
 
-::before {
+.home-pic::before {
+  content: "";
+
   display: block;
   width: 75px;
   height: 76px;
   margin: 0 auto;
-}
-
-.features-item:first-child::before {
-  content: "";
 
   background-image: url(../img/icon-1.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
-.features-item:nth-child(2)::before {
+.food-pic::before {
   content: "";
+
+  display: block;
+  width: 75px;
+  height: 76px;
+  margin: 0 auto;
 
   background-image: url(../img/icon-2.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
-.features-item:last-child::before {
+.souvenir-pic::before {
   content: "";
+
+  display: block;
+  width: 75px;
+  height: 76px;
+  margin: 0 auto;
 
   background-image: url(../img/icon-3.png);
   background-repeat: no-repeat;
@@ -662,10 +641,6 @@ a.current {
   justify-content: center;
   align-items: center;
   margin: 0;
-}
-
-.page-wrapper {
-  position: relative;
 }
 
 .copyright-btn {
@@ -927,7 +902,6 @@ a.current {
 }
 
 /* Форма отели */
-/* Customize the label (the container) */
 .container {
   position: relative;
 
@@ -945,7 +919,6 @@ a.current {
           user-select: none;
 }
 
-/* Hide the browser's default checkbox */
 .container input {
   position: absolute;
 
@@ -953,7 +926,6 @@ a.current {
   opacity: 0;
 }
 
-/* Create a custom checkbox */
 .checkmark {
   position: absolute;
   top: 0;
@@ -972,7 +944,7 @@ a.current {
   box-shadow: 0 0 0 3px #8fb9ff;
 }
 
-.container input:checked ~ .checkmark:after {
+.checkbox:checked ~ .checkmark:after {
   content: "";
   position: absolute;
   top: -4px;

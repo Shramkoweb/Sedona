@@ -491,8 +491,6 @@ a.current {
 
   border: 0;
 
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
 
@@ -1093,7 +1091,7 @@ a.current {
   background: #ffffff;
 }
 
-.slider-circle {
+.slider-cirsadadcle {
   position: relative;
   top: -10px;
 
@@ -1105,23 +1103,22 @@ a.current {
   cursor: pointer;
 }
 
-.circle-2 {
-  top: -30px;
-  left: 252px;
-}
-
-.slider-circle::after {
-  content: "";
+.slider-circle {
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: -9px;
 
-  display: block;
   width: 4px;
   height: 4px;
 
-  background: #b1b1b1;
-  border-radius: 2px;
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.circle-2 {
+  left: 80%;
 }
 
 .field-one::after {

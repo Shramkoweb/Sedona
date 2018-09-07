@@ -20,16 +20,16 @@ body {
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
-a {
-  text-decoration: none;
-}
-
-a[href]:not(.btn):not(.copyright-btn):not(.sort-link):hover {
+.common-link[href]:hover {
   color: #81b3d2;
 }
 
-a[href]:not(.btn):not(.copyright-btn):not(.sort-link):active {
+.common-link[href]:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
 }
 
 .sort-item a.sort-link {
@@ -1089,18 +1089,6 @@ a.current {
   height: 100%;
 
   background: #ffffff;
-}
-
-.slider-cirsadadcle {
-  position: relative;
-  top: -10px;
-
-  width: 20px;
-  height: 20px;
-
-  background: #ffffff;
-  border-radius: 10px;
-  cursor: pointer;
 }
 
 .slider-circle {

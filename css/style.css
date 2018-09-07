@@ -969,6 +969,7 @@ a.current {
 }
 
 .arrow {
+  vertical-align: middle;
   display: inline-block;
   width: 0;
   height: 0;

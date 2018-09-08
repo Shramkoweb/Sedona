@@ -816,7 +816,6 @@ a.current {
   left: 50%;
   z-index: 1;
 
-  display: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 568px;
@@ -825,6 +824,9 @@ a.current {
   background-color: #ffffff;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+.js .modal-form {
+  display: none;
 }
 
 .modal-form form {
@@ -1198,7 +1200,7 @@ a.current {
   height: 593px;
 }
 
-.modal-show {
+.js .modal-show {
   display: block;
 
   -webkit-animation: bounce 0.5s;

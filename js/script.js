@@ -39,3 +39,6 @@ form.addEventListener("submit", function(evt) {
     alert("Нужно ввести все значения");
   }
 });
+
+document.documentElement
+  .classList.replace('no-js', 'js');

@@ -86,7 +86,7 @@ a.current {
 .welcome {
   text-align: center;
 
-  background-color: #ffffff;
+  background-color: #5785ad;
   background-image: url(../img/background-photo.jpg);
   background-repeat: no-repeat;
   background-position: 0 -83px;
@@ -257,6 +257,7 @@ a.current {
 .filters {
   color: #ffffff;
 
+  background-color: #5785ad;
   background-image: url(../img/filter-background.jpg);
   background-position: 0 -55px;
 }
@@ -790,6 +791,7 @@ a.current {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 600px;
 }
 
 .btn-blue {

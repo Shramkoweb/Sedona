@@ -8,9 +8,10 @@ var departure = popup.querySelector("[name=departure-date]");
 var adult = popup.querySelector("[name=adult]");
 var kids = popup.querySelector("[name=kids]");
 var form = popup.querySelector("form");
+var html = document.querySelector("html")
 
 function initMap() {
-  map = new google.maps.Map(document.querySelector('.map-wrapper'), {
+  map = new google.maps.Map(document.querySelector(".map-wrapper"), {
     center: {
       lat: 34.7532446,
       lng: -111.7555027
@@ -39,6 +40,5 @@ form.addEventListener("submit", function(evt) {
     alert("Нужно ввести все значения");
   }
 });
-
-document.documentElement
-  .classList.replace('no-js', 'js');
+html.classList.remove("no-js");
+html.classList.add("js");

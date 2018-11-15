@@ -2,7 +2,7 @@
 
 * Студент: [Sergey Shramko](https://htmlacademy.ru/profile/id852139).
 * Наставник: [Филипп Шамсиев](https://github.com/toolX).
-
+***
 - Flex-box
 - Static: **1200px**
 - Адаптивность: **Chrome, Opera, Firefox, Safari, Edge, а также в Internet Explorer 11.**

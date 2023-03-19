@@ -651,12 +651,6 @@ a.current {
   -ms-flex-pack: center;
 }
 
-.copyright-btn {
-  display: block;
-  width: 115px;
-  height: 41px;
-}
-
 .footer-hotels {
   position: relative;
 }
